@@ -1,0 +1,104 @@
+/*
+ * A good color scheme is missing here, would be great if we define it with a :root tag
+ * > also a ligth color scheme is missing
+ */
+
+@font-face {
+  font-family: 'FiraCode';
+  src: url('fonts/Fira_Code/FiraCode-VariableFont_wgth.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url('fonts/Fira_Sans/FiraSans-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'FiraSans', monospace;
+}
+
+body h1 {
+  font-family: 'FiraCode', monospace;
+}
+
+header, main, footer {
+  background-color: var(--color-bg);
+}
+
+header {
+  border-radius: var(--border-radius);
+  background-color: var(--color-bg-secondary);
+  width: 100%;
+  margin: auto auto 2ch auto;
+}
+
+main {
+  border-start-start-radius: var(--border-radius);
+  border-start-end-radius: var(--border-radius);;
+}
+
+footer {
+  margin: 2ch auto auto auto;
+  border-end-start-radius: var(--border-radius);;
+  border-end-end-radius: var(--border-radius);;
+
+  display: flex;
+}
+
+img {
+  display: block;
+  max-width: 80%;
+  margin: auto;
+  height: auto;
+}
+
+footer > a > img {
+  max-width: 10rem;
+  height: auto;
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+header > nav > a {
+  flex: 1;
+}
+
+header > nav > a > img {
+  max-width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.main-logo {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 20rem;
+  height: auto;
+}
+
+main > h1, h3 {
+  margin: 0;
+  text-align: center;
+}
+
+main > section {
+  margin: 2ch auto;
+}
+
+main > pre {
+  margin: auto;
+}
+
+details {
+  width: 80%;
+}
+
+figure {
+  margin: 5ch auto;
+  border: 0.5ch solid #000;
+}
