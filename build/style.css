@@ -1,0 +1,89 @@
+:root {
+    --background0: #ffffff;
+    --background1: #ffffff;
+    --background2: #eceff4;
+    --background-code: #2e3440;
+    --shadow-color: #d8dee9;
+    --shadow-code: #4c566a;
+    --text: #222222;
+    --text-link: #5e81ac;
+}
+
+@font-face {
+    font-family: regular;
+    src: url(Roboto-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+    font-family: mono;
+    src: url(RobotoMono-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: var(--background2);
+    margin: 20px auto;
+    max-width: 820px;
+    line-height: 1.5;
+    font-size: 18px;
+    color: var(--text);
+    padding: 0px 10px;
+    font-family: regular;
+}
+
+hr {
+    color: var(--shadow-color);
+}
+
+.square {
+    background-color: var(--background1);
+    margin-bottom: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--shadow-color);
+    padding: 20px 20px;
+}
+
+.miniature {
+    background-color: var(--background1);
+    margin-bottom: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--shadow-color);
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+pre {
+    background-color: var(--background-code);
+    color: var(--background1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px var(--shadow-code);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+code {
+    font-family: mono;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+
+a {
+    color: var(--text-link);
+}
+a:visited {
+    color: var(--text-link);
+}
+
+footer {
+    margin: 10px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
