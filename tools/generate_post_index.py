@@ -1,5 +1,7 @@
 import os
 from datetime import date
+import argparse
+import sys
 
 
 class PostMetadata:
@@ -14,7 +16,7 @@ class PostMetadata:
 
 
 def print_metadata(metadata: PostMetadata) -> None:
-    print(f"Post '{metadata.title}' published on {metadata.publication}'")
+    print(f"Post '{metadata.title}' published on {metadata.publication}' on path '{metadata.path}'")
 
 
 def extract_metadata_line(line: str) -> tuple[str, str]:
@@ -63,11 +65,14 @@ def extract_metadata(file: str) -> PostMetadata:
 
     return PostMetadata(publication, title, first_paragraph, posturl)
 
+parser = argparse.ArgumentParser()
+parser.add_argument("--folder", help="Folder in which posts reside", type=str)
+args = parser.parse_args()
 
 posts_metadata = []
-directory = os.fsencode("posts")
+directory = os.fsencode(args.folder)
 for filename in os.listdir(directory):
-    metadata = extract_metadata("posts/" + filename.decode())
+    metadata = extract_metadata(args.folder + "/" + filename.decode())
     posts_metadata.append(metadata)
 
 posts_metadata.sort(reverse=True)
