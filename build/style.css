@@ -1,17 +1,22 @@
 :root {
-    --background0: #ffffff;
-    --background1: #ffffff;
-    --background2: #eceff4;
+    --background0: #bfbfbf;
+    --background1: #bfbfbf;
+    --background2: #3964a0;
     --background-code: #2e3440;
     --shadow-color: #d8dee9;
     --shadow-code: #4c566a;
     --text: #222222;
-    --text-link: #5e81ac;
+    --text-link: #222222;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 @font-face {
     font-family: regular;
-    src: url(Roboto-VariableFont_wdth,wght.ttf);
+    src: url(RobotoMono-VariableFont_wght.ttf);
 }
 
 @font-face {
@@ -36,20 +41,22 @@ hr {
 
 .square {
     background-color: var(--background1);
-    margin-bottom: 20px;
-    text-align: justify;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px var(--shadow-color);
-    padding: 20px 20px;
+    margin-bottom: 40px;
+    padding-top: 1px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    box-shadow: 10px 10px;
 }
 
 .miniature {
     background-color: var(--background1);
-    margin-bottom: 20px;
-    text-align: justify;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px var(--shadow-color);
-    padding: 20px 20px;
+    margin-bottom: 40px;
+    padding-top: 1px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    box-shadow: 10px 10px;
     cursor: pointer;
 }
 
@@ -66,7 +73,10 @@ code {
     font-family: mono;
 }
 
-h1,
+h1 {
+    line-height: 1.2;
+    color: #21fdfd;
+}
 h2,
 h3 {
     line-height: 1.2;
@@ -74,9 +84,19 @@ h3 {
 
 a {
     color: var(--text-link);
+    text-decoration: underline;
+    font-style: italic;
 }
 a:visited {
     color: var(--text-link);
+    text-decoration: underline;
+    font-style: italic;
+}
+a:hover {
+    color: #fcff41;
+    background-color: var(--background2);
+    text-decoration: underline;
+    font-style: italic;
 }
 
 footer {
