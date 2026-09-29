@@ -1,4 +1,5 @@
-EKITALDIAK=build/ekitaldiak/laugarren-ekitaldia.html
+EKITALDIAK=build/ekitaldiak/laugarren-ekitaldia.html \
+		   build/ekitaldiak/lehenengo-ekitaldia.html
 
 HTML=build/index.html \
      build/faq.html \
