@@ -7,6 +7,7 @@ date: 2026-02-24
 
 Nork esango zuen "erdi presaka" antolatutako ekitaldia horren ondo aterako zenik? Antolatzaileok eguna urduritasun pixka batekin hasi genuen, inoiz ez baitugu jakiten zenbat jende gerturatuko den, ea gerturatutako jendea gustora egongo den, ea aurkezpenetarako ordenagailuak ondo funtzionatuko duen... (spoiler: ez zuen ondo funtzionatu) Baina, azkenean, nola ez, izugarrizko ekitaldia geratu zitzaigun, hitzaldi eta mahai inguru interesgarriekin hasi eta altxorraren bila zirraragarri batekin bukatuz eguna. Hementxe doakizue laburpena, gerturatu zinetenok irribarre batekin gogora dezazuen, eta gerturatu zinetenok hurrengo urtean gerturatu zaitezten. ;)
 
+
 ![kartela](media/laugarren-ekitaldia/kartela.jpg)
 
 ### Mahai ingurua
