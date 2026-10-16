@@ -3,6 +3,7 @@ EKITALDIAK=build/ekitaldiak/laugarren-ekitaldia.html \
 
 HTML=build/index.html \
      build/faq.html \
+     build/fanzine.html \
      build/ekitaldiak/index.html \
      $(EKITALDIAK)
 
@@ -14,6 +15,10 @@ build/index.html: pages/home.html
 
 build/faq.html: pages/faq.html
 	cp pages/faq.html build/faq.html
+	python3 tools/apply_template.py --type empty $@
+
+build/fanzine.html: pages/fanzine.html
+	cp pages/fanzine.html build/fanzine.html
 	python3 tools/apply_template.py --type empty $@
 
 build/ekitaldiak/index.html: $(EKITALDIAK)
