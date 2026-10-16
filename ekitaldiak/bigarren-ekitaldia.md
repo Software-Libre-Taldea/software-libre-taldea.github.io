@@ -1,5 +1,5 @@
 ---
-title: I. ekitaldia
+title: II. ekitaldia
 date: 2026-10-16
 ---
 
