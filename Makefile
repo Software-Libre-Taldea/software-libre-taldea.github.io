@@ -1,6 +1,6 @@
 EKITALDIAK=build/ekitaldiak/laugarren-ekitaldia.html \
-		   build/ekitaldiak/lehenengo-ekitaldia.html
-
+		   build/ekitaldiak/lehenengo-ekitaldia.html \
+			 build/ekitaldiak/bigarren-ekitaldia.html
 HTML=build/index.html \
      build/faq.html \
      build/fanzine.html \
